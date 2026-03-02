@@ -11,8 +11,10 @@
 - Since the majority of existing data comes from just a few viral families, it is hard to properly cluster data for splitting and we relied instead on random splitting. 
 - This data is also heavily biased toward -1 frameshift slippage sites, leading that to be the main strength of the model's recognition.
 ## Accomplishments that we're proud of
+<img width="984" height="238" alt="precision" src="https://github.com/user-attachments/assets/c231c89f-5c95-475b-97b9-f133e1c7929d" />
 - When testing against the same known viral -1 PRF site sequences, our model outperformed the only other tool for detecting these sites, PRFect. 
 - With a Recall of 40% compared to their 8% and precision of 90% compared to their 97%, we argue that our tool has better performance since False Positives are easier to disprove through other tools while False Negatives may lead to a critical omission of translational behavior. 
+
 ## What we learned
 - First and foremost, we learned a tremendous amount about model design and data curation. 
 - Further, we were able to gain a much deeper understanding of _why_ existing tools have the limitation that they do; particularly, that the availability of datasets for niche biological phenomenon are usually not well maintained and often difficult to find or interpret. 
