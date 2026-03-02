@@ -13,6 +13,7 @@
 - This data is also heavily biased toward -1 frameshift slippage sites, leading that to be the main strength of the model's recognition.
 ## Accomplishments that we're proud of
 <img width="984" height="238" alt="precision" src="https://github.com/user-attachments/assets/c231c89f-5c95-475b-97b9-f133e1c7929d" />
+<img width="1010" height="731" alt="last" src="https://github.com/user-attachments/assets/03019337-be0f-4ce0-ad4c-0b52650507cb" />
 
 - When testing against the same known viral -1 PRF site sequences, our model outperformed the only other tool for detecting these sites, PRFect. 
 - With a Recall of 40% compared to their 8% and precision of 90% compared to their 97%, we argue that our tool has better performance since False Positives are easier to disprove through other tools while False Negatives may lead to a critical omission of translational behavior. 
