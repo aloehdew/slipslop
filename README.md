@@ -16,7 +16,18 @@
 <img width="1010" height="731" alt="last" src="https://github.com/user-attachments/assets/03019337-be0f-4ce0-ad4c-0b52650507cb" />
 
 - When testing against the same known viral -1 PRF site sequences, our model outperformed the only other tool for detecting these sites, PRFect. 
-- With a Recall of 40% compared to their 8% and precision of 90% compared to their 97%, we argue that our tool has better performance since False Positives are easier to disprove through other tools while False Negatives may lead to a critical omission of translational behavior. 
+- With a Recall of 40% compared to their 8% and precision of 90% compared to their 97%, we argue that our tool has better performance since False Positives are easier to disprove through other tools while False Negatives may lead to a critical omission of translational behavior.
+============================================================
+
+  HEAD-TO-HEAD: RECODE −1 frameshifts
+
+============================================================
+
+  PRFect recall:   56/244  (23.0%)
+
+  SlipSlop recall: 40/52  (76.9%)
+
+============================================================
 
 ## What we learned
 - First and foremost, we learned a tremendous amount about model design and data curation. 
